@@ -42,10 +42,10 @@ let fhirServerConfig = {
     // support various ENV that uses PORT vs SERVER_PORT
     port: env.PORT || env.SERVER_PORT,
     // allow Access-Control-Allow-Origin
-    corsOptions: {
+    /*corsOptions: {
       maxAge: 86400,
       origin: whitelist,
-    },
+    },*/
   },
   logging: {
     level: env.LOGGING_LEVEL,
